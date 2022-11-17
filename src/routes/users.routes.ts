@@ -1,10 +1,14 @@
 import { Router } from "express";
 import { CreateUserController } from "../modules/accounts/useCases/createUser/CreateUserController";
+import { UpdateUserAvatarController } from "../modules/accounts/useCases/updateUserAvatar/UpdateUserAvatarController";
 
-const userRoutes = Router();
+const usersRoutes = Router();
 
 const createUserController = new CreateUserController();
+const updateUserAvatarController = new UpdateUserAvatarController();
 
-userRoutes.post("/", createUserController.handle);
+usersRoutes.post("/", createUserController.handle);
 
-export { userRoutes };
+usersRoutes.patch("/avatar", updateUserAvatarController.handle);
+
+export { usersRoutes };
