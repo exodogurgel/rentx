@@ -6,7 +6,7 @@
 **Regra de negócio**
 - [X] Não deve ser possível cadastrar um carro com uma placa já existente.
 - [X] O carro deve ser cadastrado, por padrão, com disponibilidade.
-- [] O usuário responsável pelo cadastro deve ser um usuário administrador.
+- [X] O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 --- 
 
@@ -26,8 +26,8 @@ ___
 # Cadastro de Especificação no carro
 
 **Requisitos funcionais**
-- [] Deve ser possível cadastrar uma especificação para um carro.
-- [] Deve ser possível listar todas especificações.
+- [X] Deve ser possível cadastrar uma especificação para um carro.
+- [X] Deve ser possível listar todas especificações.
 - [] Deve ser possível listar todos os carros.
 
 **Regra de negócio**
