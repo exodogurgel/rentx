@@ -13,13 +13,13 @@
 # Listagem de carros
 
 **Requisitos funcionais**
-- [] Deve ser possível listar todos os carros disponíveis.
-- [] Deve ser possível listar todos os carros disponíveis pelo nome da categoria.
-- [] Deve ser possível listar todos os carros disponíveis pelo nome da marca.
-- [] Deve ser possível listar todos os carros disponíveis pelo nome do carro.
+- [X] Deve ser possível listar todos os carros disponíveis.
+- [X] Deve ser possível listar todos os carros disponíveis pelo nome da categoria.
+- [X] Deve ser possível listar todos os carros disponíveis pelo nome da marca.
+- [X] Deve ser possível listar todos os carros disponíveis pelo nome do carro.
 
 **Regra de negócio**
-- [] O usuário não precisa estar logado no sistema.
+- [X] O usuário não precisa estar logado no sistema.
 
 ___
 
@@ -28,7 +28,7 @@ ___
 **Requisitos funcionais**
 - [X] Deve ser possível cadastrar uma especificação para um carro.
 - [X] Deve ser possível listar todas especificações.
-- [] Deve ser possível listar todos os carros.
+- [X] Deve ser possível listar todos os carros.
 
 **Regra de negócio**
 - [] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
