@@ -31,9 +31,9 @@ ___
 - [X] Deve ser possível listar todos os carros.
 
 **Regra de negócio**
-- [] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
-- [] Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
-- [] O usuário responsável pelo cadastro deve ser um usuário administrador.
+- [#] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
+- [#] Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
+- [#] O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 ___
 
